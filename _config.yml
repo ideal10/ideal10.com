@@ -1,6 +1,7 @@
 url: ''
 baseurl: ''
-title: 'Jekyllwind'
+lang: 'es-CO'
+title: 'Ideal 10'
 
 plugins:
   - jekyll-postcss
@@ -10,6 +11,7 @@ postcss:
 
 exclude:
   - package.json
+  - package-lock.json
   - postcss.config.js
   - tailwind.config.js
   - yarn.lock
